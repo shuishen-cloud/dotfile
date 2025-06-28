@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "MS-CEINTL.vscode-language-pack-zh-hans",       // 中文支持 
+        "Catppuccin.catppuccin-vsc",                    // 主题颜色
+        "PKief.material-icon-theme",                    // 图标主题
+        "w88975.code-translate",                        // 代码翻译
+        "usernamehw.errorlens",                         // 错误提示
+        "evgeniypeshkov.syntax-highlighter",            // 代码高亮增强
+        "FittenTech.Fitten-Code",                       // AI代码自动补全
+        "psioniq.psi-header"                            // 头部注释模板
+    ]
+}

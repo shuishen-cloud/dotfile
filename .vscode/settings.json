@@ -1,0 +1,16 @@
+{
+  // 设置VS Code主题颜色
+  "workbench.colorTheme": "Catppuccin Mocha",
+  
+  // 编辑器字体设置，关闭连字效果
+  "editor.fontFamily": "Fira Code, '霞鹜文楷', Consolas, monospace",
+  "editor.fontSize": 13.8,
+  "editor.fontLigatures": false,
+  
+    // 终端字体设置
+  "terminal.integrated.fontFamily": "Fira Code, '霞鹜文楷', monospace",
+  "terminal.integrated.fontSize": 13.8,
+  
+  // 终端光标样式设置
+  "terminal.integrated.cursorStyle": "block"
+}
