@@ -1,0 +1,28 @@
+{
+    "psi-header.config": {
+        "author": "lwy",
+        "autoAdd": true,
+        "blankLinesAfter": 1
+    },
+    "psi-header.changes-tracking": {
+        "isActive": true,
+        "modAuthor": "Modified By:",
+        "modDate": "Last Modified:",
+        "modDateFormat": "yyyy-MM-dd HH:mm:ss"
+    },
+    "psi-header.templates": [
+        {
+            "language": "*",
+            "template": [
+                "Filename:  <<filename>>",
+                "Project:   <<projectname>>",
+                "Author:    <<author>>",
+                "***",
+                "Created:   <<filecreated('yyyy/MM/DD dddd HH:mm:ss')>>",
+                "Modified:  <<dateformat('yyyy/MM/DD dddd HH:mm:ss')>>",
+                "***",
+                "Description: "
+            ]
+        }
+    ]
+}

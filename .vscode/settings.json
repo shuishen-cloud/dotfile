@@ -11,6 +11,6 @@
   "terminal.integrated.fontFamily": "Fira Code, '霞鹜文楷', monospace",
   "terminal.integrated.fontSize": 13.8,
   
-  // 终端光标样式设置
+  // 终端光标样式设置为块状
   "terminal.integrated.cursorStyle": "block"
 }
