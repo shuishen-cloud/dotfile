@@ -1,0 +1,18 @@
+{
+    "folders": [
+        {
+            "path": "../../low_net_coder/low_net"
+        }
+    ],
+    "settings": {
+        "terminal.integrated.fontFamily": "Fira Code Regular, '霞鹜文楷', monospace",
+        "terminal.integrated.fontSize": 13.8
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",         // Python extension
+            "ms-python.vscode-pylance", // Pylance extension
+            "ms-python.debugpy"         // Debugpy extension
+        ]
+    }
+}

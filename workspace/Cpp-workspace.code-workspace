@@ -1,0 +1,16 @@
+{
+    "folders": [
+    ],
+    "settings": {
+        "terminal.integrated.fontFamily": "Fira Code Regular, '霞鹜文楷', monospace",
+        "terminal.integrated.fontSize": 13.8
+    },
+    "extensions": {
+        "recommendations": [
+            "llvm-vs-code-extensions.vscode-clangd",     // C/C++语言服务插件
+            "ms-vscode.cmake-tools",                     // CMake插件 
+            "vadimcn.vscode-lldb",                       // LLDB调试插件
+            "xaver.clang-format",                        // C/C++代码格式化插件
+        ],
+    }
+}
