@@ -4,13 +4,41 @@
   
   // 编辑器字体设置，关闭连字效果
   "editor.fontFamily": "Fira Code, '霞鹜文楷', Consolas, monospace",
-  "editor.fontSize": 13.8,
+  "editor.fontSize": 14.8,
   "editor.fontLigatures": false,
   
     // 终端字体设置
   "terminal.integrated.fontFamily": "Fira Code, '霞鹜文楷', monospace",
-  "terminal.integrated.fontSize": 13.8,
+  "terminal.integrated.fontSize": 14.8,
   
   // 终端光标样式设置为块状
-  "terminal.integrated.cursorStyle": "block"
+  "terminal.integrated.cursorStyle": "block",
+
+  "psi-header.config": {
+        "author": "lwy",
+        "autoAdd": true,
+        "projectname": "low_net",   // 这个 peojectname 变量似乎不是很起作用
+        "blankLinesAfter": 1
+    },
+    "psi-header.changes-tracking": {
+        "isActive": true,
+        "modAuthor": "Modified By:",
+        "modDate": "Last Modified:",
+        "modDateFormat": "yyyy-MM-dd HH:mm:ss"
+    },
+    "psi-header.templates": [
+        {
+            "language": "*",
+            "template": [
+                "Filename:  <<filename>>",
+                "Project:   <<projectname>>",
+                "Author:    <<author>>",
+                "***",
+                "Created:   <<filecreated('yyyy/MM/DD dddd HH:mm:ss')>>",
+                "Modified:  <<dateformat('yyyy/MM/DD dddd HH:mm:ss')>>",
+                "***",
+                "Description: "
+            ]
+        }
+    ]
 }
