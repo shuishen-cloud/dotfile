@@ -7,8 +7,13 @@
 ├── home
 │   └── .config
 │       ├── nvim
+│       │   ├── init.lua
+│       │   ├── lazy-lock.json
 │       │   └── lua
+│       │       ├── config
 │       │       └── plugins
+│       │           ├── blink.lua
+│       │           └── mason.lua
 │       └── tmux
 │           ├── tmux.conf
 │           └── tmux.conf.local
@@ -22,8 +27,6 @@
 └── workspace
     ├── Cpp-workspace.code-workspace
     └── Python-workspace.code-workspace
-
-9 directories, 10 files
 ```
 
 ### 字体地址
