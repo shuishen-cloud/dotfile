@@ -5,21 +5,20 @@
 ```bash
 .
 ├── home
-│   └── .config
-│       ├── nvim
-│       │   ├── init.lua
-│       │   ├── lazy-lock.json
-│       │   └── lua
-│       │       ├── config
-│       │       └── plugins
-│       │           ├── blink.lua
-│       │           └── mason.lua
-│       └── tmux
-│           ├── tmux.conf
-│           └── tmux.conf.local
+│   ├── .config
+│   │   ├── nvim
+│   │   │   ├── init.lua
+│   │   │   ├── lazy-lock.json
+│   │   │   └── lua
+│   │   │       ├── config
+│   │   │       └── plugins
+│   │   │           ├── blink.lua
+│   │   │           └── mason.lua
+│   │   └── tmux
+│   │       ├── tmux.conf
+│   │       └── tmux.conf.local
+│   └── .zshrc
 ├── README.md
-├── test.c
-├── test.py
 ├── .vscode
 │   ├── extensions.json
 │   ├── psi-haeder.json
